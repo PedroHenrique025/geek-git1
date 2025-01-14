@@ -1,0 +1,25 @@
+Como criar um repositório no GitHub e importá-lo por meio do Git:
+
+1. Criar um repositório no GitHub:
+   a. Acesse o site do GitHub (https://github.com) e faça login na sua conta.
+   b. No canto superior direito, clique no ícone de "+" e selecione "New repository".
+   c. Preencha o nome do repositório, adicione uma descrição (opcional) e escolha se o repositório será público ou privado.
+   d. Clique no botão "Create repository".
+
+2. Importar o repositório por meio do Git:
+   a. Abra o terminal ou prompt de comando no seu computador.
+   b. Navegue até o diretório onde você deseja clonar o repositório.
+   c. Execute o comando: git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+      (Substitua "SEU_USUARIO" pelo seu nome de usuário no GitHub e "NOME_DO_REPOSITORIO" pelo nome do repositório que você criou).
+   d. Após a clonagem, navegue até o diretório do repositório clonado com o comando: cd NOME_DO_REPOSITORIO
+   e. Agora você pode adicionar, modificar e enviar arquivos para o repositório usando os comandos do Git.
+
+Com esses passos, você terá criado um repositório no GitHub e importado para o seu computador usando o Git.
+
+para iniciarmos um repositório remoto
+
+1- criar um arquivo README.md
+2- utilizar o comando git init para iniciar o repositório
+3- git config user.name e git config user.email para definicação de usuário e etc..
+
+4- git remote add origin (url_do_repositório_remoto) aqui modificamos o repositório remoto
